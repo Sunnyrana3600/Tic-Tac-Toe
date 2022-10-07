@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+#gameTitle{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+}
+.titleColor{
+    color:red;
+}
+
+#gameContainer{ 
+    display: grid;
+    grid-template-columns: 120px 120px 120px ;
+    grid-template-rows: 120px 120px 120px 20px;
+    justify-content: center;
+}
+
+.boardTile{
+    border: solid 2px black;
+    font-size: 3rem;
+    padding-top: .7em;
+    
+
+}
+
